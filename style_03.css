@@ -1,0 +1,71 @@
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+  overflow-x: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.wrapper__blog, .wrapper__twitter, .wrapper__linkedin, .wrapper__facebook, .wrapper__github {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  height: 50px;
+  width: 40px;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+.wrapper__blog:hover, .wrapper__twitter:hover, .wrapper__linkedin:hover, .wrapper__facebook:hover, .wrapper__github:hover {
+  width: 250px;
+}
+
+.wrapper__blog:hover a, .wrapper__twitter:hover a, .wrapper__linkedin:hover a, .wrapper__facebook:hover a, .wrapper__github:hover a {
+  display: block;
+  white-space: nowrap;
+}
+
+.wrapper__blog {
+  background-color: #e17b77;
+}
+
+.wrapper__twitter {
+  background-color: #00aced;
+}
+
+.wrapper__linkedin {
+  background-color: #007bb6;
+}
+
+.wrapper__facebook {
+  background-color: #3b5998;
+}
+
+.wrapper__github {
+  background-color: #333;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1rem;
+  padding-left: 15px;
+  display: none;
+}
+/*# sourceMappingURL=style_03.css.map */
